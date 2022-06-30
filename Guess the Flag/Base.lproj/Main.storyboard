@@ -18,6 +18,9 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J6B-zF-CvY">
                                 <rect key="frame" x="95" y="100" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="J6B-zF-CvY" secondAttribute="height" multiplier="112:57" id="x73-fl-EUF"/>
+                                </constraints>
                                 <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
@@ -27,6 +30,9 @@
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSu-1o-a7s">
                                 <rect key="frame" x="95" y="388" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ZSu-1o-a7s" secondAttribute="height" multiplier="112:57" id="MZt-oX-8s3"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us" title=""/>
                                 <connections>
@@ -35,6 +41,9 @@
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sU-13-IrX">
                                 <rect key="frame" x="95" y="244" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0sU-13-IrX" secondAttribute="height" multiplier="112:57" id="Peg-96-x26"/>
+                                </constraints>
                                 <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
@@ -47,7 +56,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ZSu-1o-a7s" firstAttribute="top" secondItem="0sU-13-IrX" secondAttribute="bottom" constant="30" id="AFc-xU-uMh"/>
+                            <constraint firstItem="0sU-13-IrX" firstAttribute="height" secondItem="J6B-zF-CvY" secondAttribute="height" id="AFq-Zb-JeH"/>
                             <constraint firstItem="J6B-zF-CvY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="BVF-Ij-loB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ZSu-1o-a7s" secondAttribute="bottom" constant="20" id="GP1-Ks-pw6"/>
+                            <constraint firstItem="ZSu-1o-a7s" firstAttribute="height" secondItem="0sU-13-IrX" secondAttribute="height" id="VBb-ab-Y0h"/>
                             <constraint firstItem="J6B-zF-CvY" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="XuC-40-9mz"/>
                             <constraint firstItem="0sU-13-IrX" firstAttribute="centerX" secondItem="J6B-zF-CvY" secondAttribute="centerX" id="gWH-sE-6Gf"/>
                             <constraint firstItem="ZSu-1o-a7s" firstAttribute="centerX" secondItem="0sU-13-IrX" secondAttribute="centerX" id="pPt-lc-CZc"/>

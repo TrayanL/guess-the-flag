@@ -69,25 +69,6 @@ class ViewController: UIViewController {
     }
     
     
-    // OG CODE ==================================================================
-    
-    //        let ac = UIAlertController(title: title, message: "Your score is \(score).", preferredStyle: .alert) //preferredStyle ".alert" is OK box, and action sheet is from the bottom
-    //
-    //        ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: askQuestion)) //add a button to the alert, 3 styles for the button, "handler" is looking for a closure
-    //
-    //        present(ac, animated: true) //present takes 2 params, a view controller to present
-    //    }
-    
-    //    func roundKeeper() {
-    //
-    //        roundTracker.lineBreakMode = .byCharWrapping
-    //        roundTracker.numberOfLines = 0
-    //        roundTracker.text = "Current round \(currentRound) out of \(maxRounds)"
-    //    }
-    
-    
-    // OG CODE ==================================================================
-    
     func scoreResponse(title: String, status: Bool) {
         if status == false {
             let ac = UIAlertController(title: title, message: "Your Score is \(score).", preferredStyle: .alert)
